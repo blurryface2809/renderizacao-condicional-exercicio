@@ -6,21 +6,21 @@ function TelaCadastroEndereco(props) {
       <FormContainer>
         <h1>Cadastro do Endereço</h1>
         <Form>
-          <StyledLabel htmlFor="titulo">
+          <StyledLabel htmlFor="endereco">
             Endereço:
-            <Input id="titulo" />
+            <Input id="endereco" />
           </StyledLabel>
-          <StyledLabel htmlFor="foto">
+          <StyledLabel htmlFor="numero">
             Número:
-            <Input id="foto" />
+            <Input id="numero" />
           </StyledLabel>
-          <StyledLabel htmlFor="descricao">
+          <StyledLabel htmlFor="complemento">
             Complemento
-            <Input  id="descricao" />
+            <Input  id="complemento" />
           </StyledLabel>
-          <StyledLabel htmlFor="descricao">
+          <StyledLabel htmlFor="telefone">
             Telefone:
-            <Input type="number"id="descricao" />
+            <Input type="number" id="telefone" />
           </StyledLabel>
           <SendButton onClick={() => props.mudarTela(4)}>Cadastrar</SendButton>
           </Form>
